@@ -1,0 +1,26 @@
+{
+  "name": "engine-core/error-handler",
+  "description": "处理未捕获的PHP错误和异常",
+  "type": "ec-extension",
+  "authors": [
+    {
+      "name": "E-Kevin",
+      "email": "e-kevin@qq.com"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/EngineCore/error-handler",
+  "require": {
+    "e-kevin/engine-core": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "EngineCore\\errors\\handler\\": "src"
+    }
+  },
+  "extra": {
+    "extension-config": {
+      "app": "backend"
+    }
+  }
+}
